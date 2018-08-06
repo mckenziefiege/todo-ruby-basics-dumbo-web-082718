@@ -10,8 +10,8 @@ def argue(parameter)
   parameter
 end
 
-def greeting
-
+def greeting(greeting, name)
+  puts "#{greeting}, #{name}!"
 end
 
 def return_a_value
